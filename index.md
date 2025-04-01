@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 豆豆爸学习生信
+title: 豆豆爸学生信
 ---
 
 欢迎来到我的博客！  
