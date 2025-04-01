@@ -38,12 +38,14 @@ date: 2025-04-01
 
 ```bash
 git clone https://github.com/用户名/仓库名.git
+```
 
 ### 3. 提交更改到 GitHub
+```bash
 git add .
 git commit -m "添加新的博客文章"
 git push
-
+```
 
 
 
