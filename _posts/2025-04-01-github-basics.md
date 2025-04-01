@@ -4,7 +4,62 @@ title: "GitHub 基础知识"
 date: 2025-04-01
 ---
 
-今天学习了 Git 和 GitHub 的基础知识，以下是我的详细笔记和总结，希望对未来的项目管理和合作有所帮助。
+今天受到启发，准备开始写blog。第一步是找到一个合适的平台，发现github很不错，于是就有了从学习github开始的第一篇blog文章。
+这篇文章记录一些很基础的知识，是等以后需要更多知识的时候，再创建新的blog.
+
+---
+我觉得除了记录github基础知识外，第一步应该记录我是如何创建这个网址的：
+1.注册或登录 GitHub
+2.创建一个新的仓库，名字格式必须是：your-username.github.io
+那我的就是：likai888.github.io
+
+3.编辑**目录结构**文件
+```bash
+likai888.github.io/
+├── _config.yml         <- 网站配置文件
+├── index.md            <- 首页内容
+├── _posts/             <- 存放你的学习笔记文章（按日期命名）
+│   └── 2025-04-01-first-note.md
+├── about.md            <- 研究兴趣页
+└── assets/             <- 可选，存放图片、附件等
+```
+4.编辑 **_config.yml** 文件
+```bash
+title: 豆豆爸学习生信
+description: 记录学习过程和错误改正笔记
+baseurl: ""
+url: "https://likai888.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+```
+5. 编辑**index.md** 文件
+```bash
+---
+layout: home
+title: 豆豆爸学生信
+---
+
+欢迎来到我的博客！  
+这里是我记录**生物信息学学习过程**的地方，内容包括学习笔记、常见错误与解决办法等。
+
+点击上方标题或浏览下方的文章列表开始吧～
+```
+6. 编辑**about.md** 文件
+```bash
+---
+layout: page
+title: 我的研究兴趣
+permalink: /about/
+---
+
+我目前的研究兴趣是：  
+📌 **马的基因组组装与注释**
+
+我希望通过系统学习生信分析流程，更深入理解染色体结构、重复序列和物种特异性基因内容。
+```
+7. 接下来就是创建 **_posts** 文件夹， 然后开始第一篇博客
+
 
 ---
 
@@ -134,4 +189,4 @@ Git 和 GitHub 是现代科研工作不可或缺的工具。掌握它们可以�
 
 ---
 
-> 本文作为学习记录持续更新，未来将增加 GitHub Actions、Submodule 使用、Jekyll 深度配置等内容。
+
